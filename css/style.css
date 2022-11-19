@@ -1,9 +1,12 @@
 /*
 Colors used:
 Primary Color (Blue): #14389a;
-Seconday Color (Gold): #C19A1B;
+Seconday Color (Gold): #FFCC68;
 Third Color (White): #FFFFFF;
 */
+* {
+  box-sizing: border-box;
+}
 body {
   background-color: #ffffff;
   font-family: 'Raleway', Helvetica;
@@ -16,8 +19,27 @@ body {
   color: #4a4a4a;
 }
 
+header {
+  background-color: #FFCC68;
+  padding: 10px;
+  margin: 10px;
+  border: 3px solid #14389a;
+  position: relative
+  -webkit-box-shadow: 4px 4px 5px 0px rgba(50, 50, 50, 0.78);
+  -moz-box-shadow:    4px 4px 5px 0px rgba(50, 50, 50, 0.78);
+  box-shadow:         4px 4px 5px 0px rgba(50, 50, 50, 0.78);
+}
+
+footer {
+  background-color: #FFCC68;
+  padding: 10px;
+  margin: 10px;
+  border: 3px solid #14389a;
+  position: relative
+}
+
 img {
-  width: 100%;
+  width: 50%;
 }
 
 h1, h2, h3, h4 {
@@ -51,24 +73,19 @@ a {
 }
 
 a:hover {
-  color: #C19A1B;
+  color: #FFCC68;
   text-decoration: underline;
   /* Underlining when hovering over a link */
 }
 
-a:visited {
-  /* visited link */
-  color: #14389a;
-}
-
 a:active {
   /* selected link */
-  color: #C19A1B;
+  color: #FFCC68;
 }
 
 a:hover,
 a:focus {
-  color: #C19A1B;
+  color: #FFCC68;
   text-decoration: underline;
 }
 
@@ -76,7 +93,7 @@ a:focus {
   display: inline-block;
   /* since the <a> tag is inline by default, we need to change this to inline-block, but more on this in the next exercise */
   background-color: #14389a;
-  color: #C19A1B;
+  color: #FFCC68;
   /* needed to override the default link color */
   font-weight: 400;
   padding: 10px;
@@ -102,4 +119,48 @@ a:focus {
 .button.contact:hover {
   background-color: #14389a;
   color: #ffffff;
+}
+
+/* Layout styling */
+.container {
+  padding: 0 15px;
+}
+#work .row {
+  margin: 25px 0; /* 25px top and bottom, 0 left and right */
+}
+#hero h1 {
+  text-align: center; /* Centers text */
+}
+.logo {
+  max-width: 250px;
+  text-align: center;
+  padding: 10px 0;
+}
+nav > ul {
+  list-style-type: none;
+  padding: 0;
+}
+nav > ul > li {
+  display: inline-block;
+}
+nav > ul > li > a {
+  padding: 0 15px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #4a4a4a;
+}
+nav > ul > li > a:visited {
+  padding: 0 15px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #4a4a4a;
+}
+#hero {
+  background-color: #FFCC68;
+  padding: 20px 0;
+  display: inline-block;
+  width: 100%;
+}
+main {
+  padding-top: 133px;
 }
