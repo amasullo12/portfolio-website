@@ -10,7 +10,7 @@ Third Color (White): #FFFFFF;
 body {
   background-color: #ffffff;
   font-family: 'Raleway', Helvetica;
-  font-size: 16px;
+  font-size: 18px;
   /* Sets the font size to 16px */
   font-weight: 300;
   /* Sets the font weight to 300 */
@@ -131,6 +131,9 @@ a:focus {
 #hero h1 {
   text-align: center; /* Centers text */
 }
+#hero span {
+  display: block;
+}
 .logo {
   max-width: 250px;
   text-align: center;
@@ -156,11 +159,58 @@ nav > ul > li > a:visited {
   color: #4a4a4a;
 }
 #hero {
-  background-color: #FFCC68;
+  background-color: #FFFFFF;
   padding: 20px 0;
   display: inline-block;
   width: 100%;
 }
 main {
-  padding-top: 133px;
+  padding-top: 99px;
+}
+[class*="col-"] {
+  float: left;
+  padding: 10px 0;
+}
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* ==============================
+Medium devices (640px and larger)
+================================= */
+@media only screen and (min-width: 640px) {
+  header {
+    text-align: unset;
+    padding: 20px 0 13px;
+  }
+
+  nav {
+    width: auto;
+    float: right;
+    margin-top: 4px;
+  }
+  .col-md-6 {
+  width: 50%;
+}
+#about-page h3 { margin-top: 0;}
+}
+
+/* ==============================
+Large devices (1024px or larger)
+================================= */
+@media only screen and (min-width: 1024px) {
+  .col-lg-5 {
+    width: 25%;
+  }
+  .col-lg-7 {
+    width: 75%
+  }
+}
+
+/* ==============================
+X-large devices (1440px or larger)
+================================= */
+@media only screen and (min-width: 1440px) {
 }
