@@ -47,7 +47,7 @@ h1, h2, h3, h4 {
 }
 
 h1 {
-  font-size: 2.75em;
+  font-size: 2.00em;
   font-weight: 700;
 }
 
@@ -96,11 +96,12 @@ a:focus {
   color: #FFCC68;
   /* needed to override the default link color */
   font-weight: 400;
+  text-decoration: none;
   padding: 10px;
   border-radius: 3px;
   border-bottom: 2px solid #14389a;
   /* width of the border, type, color */
-  transition: 0.2s opacity;
+  transition: 0.2s; opacity;
 }
 
 .button:hover {
@@ -159,13 +160,13 @@ nav > ul > li > a:visited {
   color: #4a4a4a;
 }
 #hero {
-  background-color: #FFFFFF;
+  background-color: #FFCC68;
   padding: 20px 0;
   display: inline-block;
   width: 100%;
 }
 main {
-  padding-top: 99px;
+  padding-top: 99.8px;
 }
 [class*="col-"] {
   float: left;
@@ -175,6 +176,34 @@ main {
   content: "";
   clear: both;
   display: table;
+}
+.nav-list{
+  float: right;
+  position: relative;
+  bottom: 80px;
+}
+/* Animation */
+@keyframes color-change {
+  0% {fill: #edc655;}
+  50% {fill: #fcffad;}
+  100% {fill: #f76414;}
+}
+.sun {
+  animation: 4s color-change infinite alternate linear;
+}
+@keyframes cloud-move {
+  from {transform: translate(0,50px);}
+  to {transform: translate(200px,50px);}
+}
+.cloud-front {
+  animation: 30s cloud-move infinite alternate linear;
+}
+@keyframes cloud-move-reverse {
+  from {transform: translate(446px,48px);}
+  to {transform: translate(100px, 48px);}
+}
+.cloud-back {
+  animation: 34s cloud-move-reverse infinite alternate linear;
 }
 
 /* ==============================
@@ -188,7 +217,6 @@ Medium devices (640px and larger)
 
   nav {
     width: auto;
-    float: right;
     margin-top: 4px;
   }
   .col-md-6 {
@@ -207,6 +235,11 @@ Large devices (1024px or larger)
   .col-lg-7 {
     width: 75%
   }
+  .container {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
 }
 
 /* ==============================
