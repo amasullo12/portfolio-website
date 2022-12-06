@@ -21,7 +21,7 @@ body {
 
 header {
   background-color: #FFCC68;
-  padding: 10px;
+  padding: 10px 0 4px;
   margin: 10px;
   border: 3px solid #14389a;
   position: relative
@@ -121,6 +121,28 @@ a:focus {
   background-color: #14389a;
   color: #ffffff;
 }
+.navtoggle, .navtoggle.responsive {
+  position: relative;
+}
+.navtoggle li .icon {
+  position: absolute;
+  right: 0;
+  top: 2px;
+  font-size: 20px;
+  padding-right: 0;
+}
+.navtoggle.responsive nav {
+  padding: 24px 0 0;
+}
+.navtoggle.responsive li  {
+  display: block;
+  padding: 10px 0;
+  border-top: 1px solid #14389a;
+}
+
+.navtoggle.responsive li:last-child  {
+  padding: 0 0 10px;
+}
 
 /* Layout styling */
 .container {
@@ -136,16 +158,13 @@ a:focus {
   display: block;
 }
 .logo {
-  max-width: 250px;
+  max-width: 150px;
   text-align: center;
   padding: 10px 0;
 }
 nav > ul {
   list-style-type: none;
   padding: 0;
-}
-nav > ul > li {
-  display: inline-block;
 }
 nav > ul > li > a {
   padding: 0 15px;
@@ -181,6 +200,12 @@ main {
   float: right;
   position: relative;
   bottom: 80px;
+}
+.navtoggle li:not(:last-child) {
+  display: none;
+}
+.navtoggle.responsive li  {
+  display: block;
 }
 /* Animation */
 @keyframes color-change {
@@ -222,7 +247,22 @@ Medium devices (640px and larger)
   .col-md-6 {
   width: 50%;
 }
+.logo {
+  max-width: 250px;
+}
 #about-page h3 { margin-top: 0;}
+nav > ul > li {
+  display: inline-block;
+}
+nav > ul {
+  margin: 1em 0;
+}
+.navtoggle li:not(:last-child) {
+  display: inline-block;
+}
+.navtoggle li:last-child {
+  display: none;
+}
 }
 
 /* ==============================
