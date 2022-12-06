@@ -18,3 +18,12 @@ var notNullButAString = "null";
 console.log(doesntExist); // Outputs undefined
 console.log(emptyVariable); // Outputs Null
 console.log(notNullButAString); // Outputs "null" - not the same as null!
+
+function menuToggle() {
+  var x = document.getElementById('myNavtoggle');
+  if (x.className === 'navtoggle') {
+    x.className += ' responsive';
+  } else {
+    x.className = 'navtoggle';
+  }
+}
