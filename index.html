@@ -13,6 +13,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;600&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/fd5b724eda.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -22,15 +23,18 @@
   <!-- Header section -->
   <header>
     <div class= "container">
+      <div class="navtoggle" id="myNavtoggle">
       <img class= logo src="https://via.placeholder.com/150x50?text=sweet-logo" alt="Andy Masullo">
       <nav>
         <ul class="nav-list">
           <li><a href="index.html">Work</a></li>
           <li><a href="about.html">About</a></li>
-          <li><a href="index.html#contact">Contact</a></li>
+          <li><a href="index.html#contact" onclick="menuToggle()">Contact</a></li>
+          <li><a href="javascript:void(0);" class="icon" onclick="menuToggle()"><i class="fa-solid fa-bars"></i></a></li>
         </ul>
       </nav>
     </div>
+  </div>
   </header>
   <!-- End header section -->
 
@@ -1476,6 +1480,7 @@
     <p>Copyright YOUR-NAME 2020</p>
   </div>
 </footer>
+<script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
 <script src="js/scripts.js"></script>
 </body>
 
