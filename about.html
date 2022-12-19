@@ -21,15 +21,18 @@
   <!-- Header section -->
   <header>
     <div class= "container">
+      <div class="navtoggle" id="myNavtoggle">
       <img class= logo src="https://via.placeholder.com/150x50?text=sweet-logo" alt="Andy Masullo">
       <nav>
         <ul class="nav-list">
-          <li><a href="index.html">Work</a></li>
+          <li><a href="index.html#researchwork">Work</a></li>
           <li><a href="about.html">About</a></li>
           <li><a href="index.html#contact" onclick="menuToggle()">Contact</a></li>
+          <li><a href="javascript:void(0);" class="icon" onclick="menuToggle()"><i class="fa-solid fa-bars"></i></a></li>
         </ul>
       </nav>
     </div>
+  </div>
   </header>
   <!-- End header sectino -->
 
@@ -46,15 +49,15 @@
         <img src="http://via.placeholder.com/1200x800" alt="My Image">
       </picture>
       <div>
-        <h2>My Story</h2>
-        <p>I am a UX designer with a background in psychology. I have experience
+        <h2 id="mystory">My Story</h2>
+        <p id="pmystory">I am a UX designer with a background in psychology. I have experience
           in an applied role as a civilian contractor with the army, where I
           designed programs to cultivate well being in wounded soldiers.
           Empathy, creativity, and collaboration led to programatic success.
           To date these programs continue to support soldiers in many forms
           of recovery. I would like to take what I have learned, working with
           a unique population, and apply these lessons in a role as a UX
-          designer and strategist where impact can be designed to help other
+          designer and researcher where innovative design can be used to help other
           populations in need. I would love the opportunity to collaborate,
           or simply toss some ideas around with you and your team. Be sure
           to check out my portfolio and connect with me on LinkedIn.</p>
@@ -89,7 +92,7 @@
   <!-- Footer Section -->
   <footer id="contact">
     <div class="container">
-      <a href="#contact">Contact</a>
+      <a href="#contact"></a>
       <div>
         <h2> Get in Touch
         </h2>
@@ -137,7 +140,7 @@
           <g />
         </svg>
       </a>
-      <p>Copyright YOUR-NAME 2020</p>
+      <p>Copyright Andrew Masullo 2022</p>
     </div>
   </div>
   </footer>
