@@ -59,7 +59,7 @@ h4 {
 }
 
 a {
-  color: #5b5b5b;
+  color: #4F4F4F;
   text-decoration: none;
   /* No underlining */
 }
@@ -77,7 +77,7 @@ a:active {
 
 a:hover,
 a:focus {
-  color: #10194f;
+  color: #FFCC68;
   text-decoration: underline;
 }
 
