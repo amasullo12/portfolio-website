@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title> Andy Masullo UX Designer & Music Maker Raleigh, NC
+  <title> Andy Masullo UX Designer and Music Maker Raleigh, NC
   </title>
   <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
   <link rel="stylesheet" type="text/css" href="css/style.css">
@@ -22,9 +22,9 @@
 
   <!-- Header section -->
   <header>
-    <div class= "container">
-      <div class="navtoggle" id="myNavtoggle">
-      <img class= logo src="https://via.placeholder.com/150x50?text=sweet-logo" alt="Andy Masullo">
+  <div class="container">
+    <div class="navtoggle" id="myNavtoggle">
+      <img class="logo" src="/Users/andrewmasullo/Desktop/Portfolio Site Andy Masullo/img/AM Logo/AMLogo.png" alt="Andy Masullo">
       <nav>
         <ul class="nav-list">
           <li><a href="index.html#researchwork">Work</a></li>
@@ -32,91 +32,93 @@
           <li><a href="index.html#contact" onclick="menuToggle()">Contact</a></li>
           <li><a href="javascript:void(0);" class="icon" onclick="menuToggle()"><i class="fa-solid fa-bars"></i></a></li>
         </ul>
-    </nav>
+      </nav>
     </div>
   </div>
-  </header>
+</header>
   <!-- End header section -->
 
 
   <!-- Hero Section -->
   <div id="hero">
-    <div class="container">
-      <h1>
+  <div class="container">
+      <div>
         <div>
-          <div>
-            <h1> Hi, My name is Andy Masullo.
-              <span> I'm a UX Researcher and Designer from Raleigh, NC!
-              </span>
-            </h1>
-              <p> Providing innovative solutions through creative thinking and a sharpened sense of empathy.
-              </p>
-            </h1>
-          </div>
-        </div>
-      </div>
+          <h1>
+          <h1 class="intro"> Hi, My name is Andy Masullo.
+            <span> I'm a UX Researcher and Designer from Raleigh, NC!
+            </span>
+          <p class="tagline"> Providing innovative solutions through creative thinking and a sharpened sense of empathy.
+          </p>
+          </h1>
+    </h1>
+  </div>
+</div>
+</div>
+</div>
 
   <!-- Project 1 Section -->
   <!-- open row that holds (2) columns for project -->
     <div id="researchwork">
-      <div class="container">
-        <h2>My Work</h2>
+  <div class="container">
+    <h2>My Work</h2>
+  </div>
+  </div>
+  <!-- open first column (used for image) -->
+  <div class="row">
+    <div class="container">
+      <div class="col-md-6 col-lg-7">
+        <picture>
+          <source srcset="/Users/andrewmasullo/Desktop/Portfolio Site Andy Masullo/img/EP Journey Map/Endpoint_Journey_Map_Project_Image.jpg" media="(max-width:767px)">
+          <img src="/Users/andrewmasullo/Desktop/Portfolio Site Andy Masullo/img/EP Journey Map/Endpoint_Journey_Map_Project_Image.jpg" alt="My Image">
+        </picture>
+      </div>
+      <!-- end first column -->
+      <!-- open second column (used for text) -->
+      <div>
+        <div class="row">
+          <div class="col-md-6 col-lg-5">
+            <h3 id="work" style="margin-top: 0px">Endpoint User Research Analysis</h3><!-- heading for the project -->
+            <p id="pwork"><!-- open paragraph -->
+              For my first UX project I analyzed moderated concept tests done
+              with Endpoint design and project managers. I used Dovetail to tag
+              quotes from transcripts to later use as data points for themes and
+              recommendations.
+            </p><!-- end paragraph -->
+            <a href="#" class="button">Read more</a><!-- button or link label -->
+          </div><!-- end second column -->
+        </div><!-- end row that holds (2) columns for project -->
+      </div>
     </div>
-          <!-- open first column (used for image) -->
-          <div class="row">
-            <div class="container">
-              <div class="col-md-6 col-lg-7">
-                <picture>
-                  <source srcset="http://via.placeholder.com/600x400" media="(max-width:767px)">
-                  <img src="http://via.placeholder.com/1200x800" alt="My Image">
-                </picture>
-              </div>
-              <!-- end first column -->
-              <!-- open second column (used for text) -->
-              <div>
-                <div class="row">
-                  <div class="col-md-6 col-lg-5">
-                    <h3 id="work" style="margin-top: 0px">Endpoint User Research Analysis</h3><!-- heading for the project -->
-                    <p id= "pwork"><!-- open paragraph -->
-                      For my first UX project I analyzed moderated concept tests done
-                      with Endpoint design and project managers. I used Dovetail to tag
-                      quotes from transcripts to later use as data points for themes and
-                      recommendations.
-                    </p><!-- end paragraph -->
-                    <a href="#" class="button">Read more</a><!-- button or link label -->
-                  </div><!-- end second column -->
-                </div><!-- end row that holds (2) columns for project -->
-              </div>
-            </div>
-          </div>
+  </div>
   <!-- Project 2 Section -->
 <!-- open row that holds (2) columns for project -->
       <div id="journeymapwork">
-        <div class="container">
-            <!-- open first column (used for image) -->
-            <div class="row">
-              <div class="col-md-6 col-lg-7">
-                <picture>
-                  <source srcset="http://via.placeholder.com/600x400" media="(max-width:767px)">
-                  <img src="http://via.placeholder.com/1200x800" alt="My Image">
-                </picture>
-              </div><!-- end first column -->
-              <div><!-- open second column (used for text) -->
-                <div class="row">
-                  <div class="col-md-6 col-lg-5">
-                    <h3 style="margin-top: 0px">Endpoint Journey Map</h3><!-- heading for the project -->
-                    <p id= "pwork"><!-- open paragraph -->
-                      Previous work with Endpoint secured a follow up project. My task
-                      was to create a Journey Map to describe how Endpoint’s
-                      product, Flash, helps manage clinical trials.
-                    </p><!-- end paragraph -->
-                    <a href="EP_Journey_Map.html" class="button">Read more</a><!-- button or link label -->
-                  </div><!-- end second column -->
-                </div><!-- end row that holds (2) columns for project -->
-              </div>
-            </div>
-          </div>
-        </div>
+  <div class="container">
+    <!-- open first column (used for image) -->
+    <div class="row">
+      <div class="col-md-6 col-lg-7">
+        <picture>
+          <source srcset="/Users/andrewmasullo/Desktop/Portfolio Site Andy Masullo/img/EP User Research/Endpoint_UR_Analysis Projcet_Image.jpg" media="(max-width:767px)">
+          <img src="/Users/andrewmasullo/Desktop/Portfolio Site Andy Masullo/img/EP User Research/Endpoint_UR_Analysis Projcet_Image.jpg" alt="My Image">
+        </picture>
+      </div><!-- end first column -->
+      <div><!-- open second column (used for text) -->
+        <div class="row">
+          <div class="col-md-6 col-lg-5">
+            <h3 style="margin-top: 0px">Endpoint Journey Map</h3><!-- heading for the project -->
+            <p id="epwork"><!-- open paragraph -->
+              Previous work with Endpoint secured a follow up project. My task
+              was to create a Journey Map to describe how Endpoint’s
+              product, Flash, helps manage clinical trials.
+            </p><!-- end paragraph -->
+            <a href="EP_Journey_Map.html" class="button">Read more</a><!-- button or link label -->
+          </div><!-- end second column -->
+        </div><!-- end row that holds (2) columns for project -->
+      </div>
+    </div>
+  </div>
+</div>
             <!-- CSS Animation Section -->
             <!-- open row that holds (2) columns for project -->
             <div id="berlin">
@@ -469,7 +471,8 @@
                               d="M334.873,122.028 L333.873,122.028 L333.873,147.553 C333.873,147.816 333.98,148.074 334.166,148.26 C334.352,148.446 334.61,148.553 334.873,148.553 L336.209,148.553 C336.472,148.553 336.73,148.446 336.916,148.26 C337.102,148.074 337.209,147.816 337.209,147.553 L337.209,120.741 C337.209,120.339 336.97,119.977 336.6,119.82 C336.231,119.663 335.804,119.742 335.515,120.02 L334.179,121.308 C333.984,121.496 333.873,121.757 333.873,122.028 L334.873,122.028 L335.567,122.748 L336.903,121.461 L336.209,120.741 L335.209,120.741 L335.209,146.553 L334.873,146.553 L334.873,147.553 L335.873,147.553 L335.873,122.028 L334.873,122.028 L335.567,122.748 L334.873,122.028">
                             </path>
                             <polyline fill="#D64A4A"
-                              points="342.586 93.971 337.516 93.971 337.516 88.9 333.565 88.9 333.565 93.971 328.495 93.971 328.495 97.921 333.565 97.921 333.565 102.991 337.516 102.991 337.516 97.921 342.586 97.921 342.586 93.971"></polyline>
+                              points="342.586 93.971 337.516 93.971 337.516 88.9 333.565 88.9 333.565 93.971 328.495 93.971 328.495 97.921 333.565 97.921 333.565 102.991 337.516 102.991 337.516 97.921 342.586 97.921 342.586 93.971">
+                            </polyline>
                             <path fill="#1A232C"
                               d="M342.586,93.971 L342.586,92.971 L338.516,92.971 L338.516,88.9 C338.516,88.637 338.409,88.379 338.223,88.193 C338.037,88.007 337.779,87.9 337.516,87.9 L333.565,87.9 C333.302,87.9 333.045,88.007 332.858,88.193 C332.672,88.379 332.565,88.637 332.565,88.9 L332.565,92.971 L328.495,92.971 C328.232,92.971 327.974,93.077 327.788,93.263 C327.602,93.45 327.495,93.707 327.495,93.971 L327.495,97.921 C327.495,98.184 327.602,98.442 327.788,98.628 C327.974,98.814 328.232,98.921 328.495,98.921 L332.565,98.921 L332.565,102.991 C332.565,103.254 332.672,103.512 332.858,103.698 C333.045,103.884 333.302,103.991 333.565,103.991 L337.516,103.991 C337.779,103.991 338.037,103.884 338.223,103.698 C338.409,103.512 338.516,103.254 338.516,102.991 L338.516,98.921 L342.586,98.921 C342.849,98.921 343.107,98.814 343.293,98.628 C343.479,98.442 343.586,98.184 343.586,97.921 L343.586,93.971 C343.586,93.707 343.479,93.45 343.293,93.263 C343.107,93.077 342.849,92.971 342.586,92.971 L342.586,93.971 L341.586,93.971 L341.586,96.921 L337.516,96.921 C337.252,96.921 336.995,97.027 336.809,97.214 C336.622,97.4 336.516,97.657 336.516,97.921 L336.516,101.991 L334.565,101.991 L334.565,97.921 C334.565,97.657 334.459,97.4 334.273,97.214 C334.086,97.027 333.829,96.921 333.565,96.921 L329.495,96.921 L329.495,94.971 L333.565,94.971 C333.829,94.971 334.086,94.864 334.273,94.678 C334.459,94.491 334.565,94.234 334.565,93.971 L334.565,89.9 L336.516,89.9 L336.516,93.971 C336.516,94.234 336.622,94.491 336.809,94.678 C336.995,94.864 337.252,94.971 337.516,94.971 L342.586,94.971 L342.586,93.971 L341.586,93.971 L342.586,93.971">
                             </path>
@@ -1383,7 +1386,8 @@
                               d="M676.652,483.615 L698.689,483.615 C699.242,483.615 699.689,483.167 699.689,482.615 C699.689,482.062 699.242,481.615 698.689,481.615 L676.652,481.615 C676.1,481.615 675.652,482.062 675.652,482.615 C675.652,483.167 676.1,483.615 676.652,483.615">
                             </path>
                             <path fill="#EDC655" class="sun"
-                              d="M380.124,43.03 C380.124,30.313 390.433,20.004 403.149,20.004 C415.866,20.004 426.175,30.313 426.175,43.03 C426.175,55.746 415.866,66.056 403.149,66.056 C390.433,66.056 380.124,55.746 380.124,43.03"></path>
+                              d="M380.124,43.03 C380.124,30.313 390.433,20.004 403.149,20.004 C415.866,20.004 426.175,30.313 426.175,43.03 C426.175,55.746 415.866,66.056 403.149,66.056 C390.433,66.056 380.124,55.746 380.124,43.03">
+                            </path>
                             <path fill="#1A232C"
                               d="M380.124 43.03L381.124 43.03C381.125 36.944 383.588 31.444 387.575 27.455 391.564 23.468 397.064 21.004 403.149 21.004 409.235 21.004 414.735 23.468 418.724 27.455 422.711 31.444 425.174 36.944 425.175 43.03 425.174 49.115 422.711 54.615 418.724 58.604 414.735 62.592 409.235 65.055 403.149 65.056 397.064 65.055 391.564 62.592 387.575 58.604 383.588 54.615 381.125 49.115 381.124 43.03L379.124 43.03C379.125 56.299 389.88 67.055 403.149 67.056 416.419 67.055 427.174 56.299 427.175 43.03 427.174 29.76 416.419 19.004 403.149 19.004 389.88 19.004 379.125 29.76 379.124 43.03L380.124 43.03M381.18 22.782C384.441 19.246 388.544 16.499 393.169 14.86 393.69 14.676 393.962 14.104 393.778 13.584 393.594 13.063 393.022 12.791 392.502 12.975 387.564 14.725 383.187 17.655 379.71 21.426 379.336 21.832 379.361 22.465 379.767 22.839 380.173 23.214 380.806 23.188 381.18 22.782zM400.715 13.251C401.518 13.186 402.33 13.153 403.149 13.153 407.323 13.153 411.292 14.008 414.898 15.552 415.406 15.769 415.994 15.534 416.211 15.026 416.428 14.518 416.193 13.93 415.685 13.713 411.837 12.065 407.597 11.153 403.149 11.153 402.276 11.153 401.41 11.188 400.554 11.257 400.004 11.302 399.594 11.784 399.638 12.334 399.682 12.885 400.164 13.295 400.715 13.251zM421.54 19.483C425.344 22.458 428.408 26.335 430.411 30.789 430.638 31.293 431.23 31.518 431.734 31.291 432.237 31.065 432.462 30.473 432.236 29.969 430.097 25.214 426.829 21.081 422.773 17.907 422.338 17.567 421.709 17.644 421.369 18.079 421.029 18.514 421.105 19.143 421.54 19.483zM432.634 38.177C432.891 39.756 433.025 41.377 433.025 43.03 433.025 46.344 432.487 49.528 431.492 52.504 431.317 53.028 431.6 53.595 432.124 53.77 432.648 53.945 433.214 53.662 433.389 53.138 434.451 49.961 435.025 46.561 435.025 43.03 435.025 41.269 434.882 39.54 434.607 37.855 434.518 37.31 434.004 36.94 433.459 37.029 432.914 37.118 432.545 37.632 432.634 38.177zM428.116 59.444C425.45 63.492 421.824 66.854 417.566 69.204 417.082 69.471 416.907 70.079 417.174 70.563 417.44 71.047 418.049 71.222 418.532 70.955 423.077 68.447 426.942 64.863 429.786 60.545 430.09 60.084 429.963 59.463 429.501 59.16 429.04 58.856 428.42 58.983 428.116 59.444zM410.384 72.024C408.068 72.6 405.646 72.906 403.149 72.906 400.689 72.906 398.3 72.609 396.014 72.049 395.477 71.917 394.936 72.246 394.805 72.782 394.673 73.319 395.001 73.86 395.538 73.991 397.978 74.589 400.528 74.906 403.149 74.906 405.809 74.906 408.395 74.58 410.867 73.965 411.403 73.832 411.729 73.289 411.596 72.754 411.463 72.218 410.92 71.891 410.384 72.024zM388.821 69.253C384.554 66.916 380.917 63.566 378.238 59.528 377.932 59.068 377.312 58.942 376.852 59.248 376.391 59.553 376.266 60.174 376.571 60.634 379.43 64.941 383.307 68.513 387.86 71.007 388.345 71.272 388.952 71.094 389.218 70.61 389.483 70.126 389.305 69.518 388.821 69.253zM374.839 52.6C373.824 49.597 373.274 46.379 373.273 43.03 373.274 37.989 374.52 33.246 376.721 29.083 376.979 28.595 376.793 27.99 376.305 27.732 375.816 27.473 375.211 27.66 374.953 28.148 372.604 32.59 371.273 37.658 371.273 43.03 371.273 46.599 371.861 50.034 372.944 53.241 373.121 53.764 373.689 54.045 374.212 53.868 374.735 53.691 375.016 53.124 374.839 52.6L374.839 52.6z">
                             </path>
@@ -1406,7 +1410,7 @@
                     <div><!-- open second column (used for text) -->
                       <div class="row">
                         <div class="col-md-6 col-lg-5">
-                          <h3 id="work">CSS Animation</h3><!-- heading for the project -->
+                          <h3>CSS Animation</h3><!-- heading for the project -->
                           <p id="pcss"><!-- open paragraph -->
                             This is an example of a SVG image which is animated using keyframes
                           </p>
@@ -1421,64 +1425,61 @@
             </div>
 
   <!-- Footer Section -->
-<footer id="contact">
-  <div class="container" style="padding-top: 5px">
-    <a href="#contact"></a>
-    <div>
-      <h2> Get in Touch
-      </h2>
-      <p> Want to get in touch to disucss an opportunity or just
-        have a virtual coffee? Feel free to call me at <a href="814-321-4753">
-          xxx-xxx-xxxx </a> or Skype me at <a href="Skype:live:.cid.96a4942813e9415b">
-          SKYPENAME </a>. Prefer sending an email?
-      </p>
-    </div>
+  <footer id="contact">
+    <div class="container" style="padding-top: 5px">
+      <a href="#contact"></a>
+      <div>
+        <h2> Get in Touch
+        </h2>
+        <p> Want to get in touch to disucss an opportunity or just
+          have a virtual coffee? Feel free to call me at <a href="814-321-4753">
+            xxx-xxx-xxxx </a> or Skype me at <a href="Skype:live:.cid.96a4942813e9415b">
+            SKYPENAME </a>. Prefer sending an email?
+        </p>
+      </div>
       <div>
         <a href="mailto:amasullo12@gmail.com" class="button contact">Email Me </a>
       </div>
-    <!--Social Media Layout and Placeholders-->
-    <a href="LINKEDIN-URL" target="_blank">
-      <!-- LinkedIn Icon -->
-      <?xml version="1.0" ?>
-      <!DOCTYPE svg PUBLIC '-//W3C//DTD SVG 1.0//EN' 'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'><svg enable-background="new 0 0 32 32" height="32px" id="Layer_1" version="1.0" viewBox="0 0 32 32" width="32px" xml:space="preserve"
-        xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-        <g>
-          <circle clip-rule="evenodd" cx="16" cy="16" fill="#007BB5" fill-rule="evenodd" r="16" />
+      <!--Social Media Layout and Placeholders-->
+      <a href="LINKEDIN-URL" target="_blank">
+        <!-- LinkedIn Icon -->
+        <!DOCTYPE svg PUBLIC '-//W3C//DTD SVG 1.0//EN' 'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'><svg enable-background="new 0 0 32 32" height="32px" id="Layer_1" version="1.0" viewBox="0 0 32 32" width="32px" xml:space="preserve"
+          xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
           <g>
-            <rect fill="#FFFFFF" height="14" width="4" x="7" y="11" />
-            <path d="M20.499,11c-2.791,0-3.271,1.018-3.499,2v-2h-4v14h4v-8c0-1.297,0.703-2,2-2c1.266,0,2,0.688,2,2v8h4v-7    C25,14,24.479,11,20.499,11z" fill="#FFFFFF" />
-            <circle cx="9" cy="8" fill="#FFFFFF" r="2" />
+            <circle clip-rule="evenodd" cx="16" cy="16" fill="#007BB5" fill-rule="evenodd" r="16" />
+            <g>
+              <rect fill="#FFFFFF" height="14" width="4" x="7" y="11" />
+              <path d="M20.499,11c-2.791,0-3.271,1.018-3.499,2v-2h-4v14h4v-8c0-1.297,0.703-2,2-2c1.266,0,2,0.688,2,2v8h4v-7    C25,14,24.479,11,20.499,11z" fill="#FFFFFF" />
+              <circle cx="9" cy="8" fill="#FFFFFF" r="2" />
+            </g>
           </g>
-        </g>
-        <g />
-        <g />
-        <g />
-        <g />
-        <g />
-        <g />
-      </svg>
-    </a>
-    <a href="TWITTER-URL" target="_blank">
-      <!-- Twitter Icon -->
-      <?xml version="1.0" ?>
-      <!DOCTYPE svg PUBLIC '-//W3C//DTD SVG 1.0//EN' 'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'><svg enable-background="new 0 0 32 32" height="32px" id="Layer_1" version="1.0" viewBox="0 0 32 32" width="32px" xml:space="preserve"
-        xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-        <path
-          d="M31.993,6.077C30.816,6.6,29.552,6.953,28.223,7.11c1.355-0.812,2.396-2.098,2.887-3.63  c-1.269,0.751-2.673,1.299-4.168,1.592C25.744,3.797,24.038,3,22.149,3c-3.625,0-6.562,2.938-6.562,6.563  c0,0.514,0.057,1.016,0.169,1.496C10.301,10.785,5.465,8.172,2.227,4.201c-0.564,0.97-0.888,2.097-0.888,3.3  c0,2.278,1.159,4.286,2.919,5.464c-1.075-0.035-2.087-0.329-2.972-0.821c-0.001,0.027-0.001,0.056-0.001,0.082  c0,3.181,2.262,5.834,5.265,6.437c-0.55,0.149-1.13,0.23-1.729,0.23c-0.424,0-0.834-0.041-1.234-0.117  c0.834,2.606,3.259,4.504,6.13,4.558c-2.245,1.76-5.075,2.811-8.15,2.811c-0.53,0-1.053-0.031-1.566-0.092  C2.905,27.913,6.355,29,10.062,29c12.072,0,18.675-10.001,18.675-18.675c0-0.284-0.008-0.568-0.02-0.85  C30,8.55,31.112,7.395,31.993,6.077z"
-          fill="#55ACEE" />
-        <g />
-        <g />
-        <g />
-        <g />
-        <g />
-        <g />
-      </svg>
-    </a>
-    <p style="margin-bottom: 0px">Copyright Andy Masullo 2022</p>
-  </div>
-</footer>
-<script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
-<script src="js/scripts.js"></script>
-</body>
-
+          <g />
+          <g />
+          <g />
+          <g />
+          <g />
+          <g />
+        </svg>
+      </a>
+      <a href="TWITTER-URL" target="_blank">
+        <!-- Twitter Icon -->
+        <!DOCTYPE svg PUBLIC '-//W3C//DTD SVG 1.0//EN' 'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'><svg enable-background="new 0 0 32 32" height="32px" id="Layers_1" version="1.0" viewBox="0 0 32 32" width="32px" xml:space="preserve"
+          xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+          <path
+            d="M31.993,6.077C30.816,6.6,29.552,6.953,28.223,7.11c1.355-0.812,2.396-2.098,2.887-3.63  c-1.269,0.751-2.673,1.299-4.168,1.592C25.744,3.797,24.038,3,22.149,3c-3.625,0-6.562,2.938-6.562,6.563  c0,0.514,0.057,1.016,0.169,1.496C10.301,10.785,5.465,8.172,2.227,4.201c-0.564,0.97-0.888,2.097-0.888,3.3  c0,2.278,1.159,4.286,2.919,5.464c-1.075-0.035-2.087-0.329-2.972-0.821c-0.001,0.027-0.001,0.056-0.001,0.082  c0,3.181,2.262,5.834,5.265,6.437c-0.55,0.149-1.13,0.23-1.729,0.23c-0.424,0-0.834-0.041-1.234-0.117  c0.834,2.606,3.259,4.504,6.13,4.558c-2.245,1.76-5.075,2.811-8.15,2.811c-0.53,0-1.053-0.031-1.566-0.092  C2.905,27.913,6.355,29,10.062,29c12.072,0,18.675-10.001,18.675-18.675c0-0.284-0.008-0.568-0.02-0.85  C30,8.55,31.112,7.395,31.993,6.077z"
+            fill="#55ACEE" />
+          <g />
+          <g />
+          <g />
+          <g />
+          <g />
+          <g />
+        </svg>
+      </a>
+      <p style="margin-bottom: 0px">Copyright Andy Masullo 2022</p>
+    </div>
+  </footer>
+  <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+  <script src="js/scripts.js"></script>
+  </body>
 </html>
