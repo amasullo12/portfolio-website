@@ -238,10 +238,10 @@ main {
   animation: 34s cloud-move-reverse infinite alternate linear;
 }
 .intro {
-  font-size: 48px;
+  font-size: 34px;
 }
 .tagline {
-  font-size: 28px;
+  font-size: 18px;
 }
 
 /* ==============================
