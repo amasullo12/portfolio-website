@@ -1,7 +1,8 @@
 /*
 Colors used:
-Primary Color (Blue): #14389a;
-Seconday Color (Gold): #FFCC68;
+Primary Color (Light Blue): #9fc5e8;
+Secondary Color (Dark Blue): #14389a;
+Highlight Color (Gold): #FFCC68;
 Third Color (White): #FFFFFF;
 */
 * {
@@ -239,9 +240,11 @@ main {
 }
 .intro {
   font-size: 34px;
+  text-align: center;
 }
 .tagline {
   font-size: 18px;
+  text-align: center;
 }
 
 /* ==============================
